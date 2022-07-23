@@ -1,13 +1,14 @@
 <template>
-    <div 
-        class="h-screen w-screen flex flex-col justify-center items-center"
-        style="background-image:linear-gradient(rgba(212, 202, 88, 0.5), rgba(225, 113, 66, 0.5)), url(../assets/hero-background.jpg)"
-    >
-        <div class="counter_text text-stone text-7xl">
-            <h1>
-                {{displayDays}} days
-                {{displayHours}} hours
-            </h1>
+    <div>
+        <div class="text-center text-white lg:text-8xl md:text-7xl text-6xl font-bold flex flex-col">
+            <div class="flex md:gap-10 flex-col md:flex-row">
+                 <h1>
+                {{displayDays}} days,
+                </h1>
+                <h1>
+                    {{displayHours}} hours
+                </h1>
+            </div>
             <h1>of summer to go!</h1>
         </div>
         
