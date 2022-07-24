@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="text-center text-white lg:text-8xl md:text-7xl text-6xl font-bold flex flex-col">
+        <div class="text-center text-white lg:text-8xl md:text-7xl text-5xl font-bold flex flex-col px-10" data-aos="zoom-in">
             <div class="flex md:gap-10 flex-col md:flex-row">
                  <h1>
                 {{displayDays}} days,
@@ -11,7 +11,12 @@
             </div>
             <h1>of summer to go!</h1>
         </div>
-        
+        <div class=" flex justify-center items-end absolute -bottom-10 left-14 md:-bottom-32 md:left-80">
+            <div class="lg:w-[300px] lg:h-[300px] w-[70px] h-[70px] bg-grey"></div>
+            <div class="lg:w-[300px] lg:h-[300px] w-[70px] h-[70px] bg-stone"></div>
+            <div class="lg:w-[300px] lg:h-[300px] w-[70px] h-[70px] bg-grey"></div>
+            <div class="lg:w-[300px] lg:h-[300px] w-[70px] h-[70px] bg-stone"></div>
+        </div>
     </div>
 </template>
 

@@ -7,14 +7,14 @@ import Main from './components/Main.vue'
 
 <template>
   <div class="font-NYCD text-stone">
-    <div class="fixed top-6 flex justify-between w-full px-10">
+    <div class="fixed top-6 flex justify-between w-full px-10 z-50">
        <img src="./assets/logo.svg">
        <img src="./assets/facebook-icon.svg">
     </div>
-    <div class="h-screen w-screen flex flex-col justify-center items-center bg-hero-bg bg-cover bg-no-repeat bg-center p-5">
+    <div class="h-screen w-screen flex flex-col justify-center items-center bg-hero-bg bg-cover bg-no-repeat bg-center px-5">
       <Counter />
     </div>
-    <div class="h-screen w-screen flex flex-col justify-center items-center bg-body-bg bg-cover bg-no-repeat bg-center p-5">
+    <div class="h-screen w-screen flex flex-col justify-center items-center bg-body-bg bg-cover bg-center p-5">
       <Main />
     </div>
   </div>
