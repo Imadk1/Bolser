@@ -11,7 +11,7 @@
             </div>
             <h1>of summer to go!</h1>
         </div>
-        <div class=" flex justify-center items-end absolute -bottom-10 left-14 md:-bottom-32 md:left-80 lg:left-1/4">
+        <div class=" flex justify-center items-end absolute -bottom-10 left-14 md:-bottom-32 md:left-80 lg:left-[29%]">
             <div class="lg:w-[200px] lg:h-[200px] w-[70px] h-[70px] bg-grey"></div>
             <div class="lg:w-[200px] lg:h-[200px] w-[70px] h-[70px] bg-stone"></div>
             <div class="lg:w-[200px] lg:h-[200px] w-[70px] h-[70px] bg-grey"></div>
