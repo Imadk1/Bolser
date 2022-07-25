@@ -24,7 +24,8 @@
                     </span>
                     <span class="flex gap-3 text-xl">
                         <p>Rain:</p>
-                        <p>{{Math.floor(weather.rain["1h"])}}mm</p> <!-- title 1h -->
+                        <p v-if="weather.rain">{{Math.floor(weather.rain["1h"])}}mm</p> <!-- title 1h -->
+                        <p v-else>0mm</p> <!-- title 1h -->
                     </span>
                 </div>
                 <div class="flex flex-col md:flex-row bg-stone/50 px-3 py-1 gap-3 justify-center">
